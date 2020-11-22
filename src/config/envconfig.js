@@ -3,10 +3,10 @@
 let baseUrl = ''
 let imgUrl
 if (process.env.NODE_ENV === 'development'){
-  imgUrl = '//elm.cangdu.org/img/'
+  imgUrl = '//'
 } else if (process.env.NODE_ENV === 'production') {
-  baseUrl = '//elm.cangdu.org'
-  imgUrl = '//elm.cangdu.org/img/'
+  baseUrl = '//'
+  imgUrl = '//'
 }
 
 export  {

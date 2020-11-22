@@ -5,9 +5,6 @@
 │   └── manifest.json
 ├── config
 │   ├── env.js
-│   ├── jest
-│   │   ├── cssTransform.js
-│   │   └── fileTransform.js
 │   ├── paths.js
 │   ├── webpack.config.dev.js
 │   ├── webpack.config.prod.js
@@ -21,32 +18,24 @@
 ├── scripts
 │   ├── build.js
 │   ├── start.js
-│   └── test.js
 ├── src
 │   ├── api
 │   │   ├── api.js
 │   │   └── server.js
 │   ├── assets
 │   │   └── iconfont
+│   │   └── loading
 │   ├── components
-│   │   ├── alert_tip
-│   │   ├── footer
-│   │   ├── header
-│   │   ├── loader
-│   │   └── shop_list
+│   │   ├── xxx待添加
 │   ├── config
 │   │   ├── envconfig.js
-│   │   └── rem.js
 │   ├── index.js
 │   ├── pages
-│   │   ├── food
-│   │   ├── info
-│   │   ├── login
-│   │   ├── msite
-│   │   ├── profile
-│   │   ├── set_user
-│   │   ├── shop
-│   │   └── technology
+│   │   ├── about
+│   │   ├── daily
+│   │   ├── home
+│   │   ├── share
+│   │   ├── stage
 │   ├── router
 │   │   └── index.js
 │   ├── serviceWorker.js
@@ -62,4 +51,4 @@
 │       └── commons.js
 └── tree.md
 
-30 directories, 32 files
+xx directories, xx files

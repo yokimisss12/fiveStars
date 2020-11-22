@@ -6,8 +6,8 @@ import {Provider} from 'react-redux'
 import {AppContainer} from 'react-hot-loader'
 import store from '@/store'
 import * as serviceWorker from './serviceWorker';
-import './config/rem'
-import './style/base.scss'
+
+
 
 FastClick.attach(document.body)
 

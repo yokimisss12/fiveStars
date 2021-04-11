@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react'
 
+import Menu from '../../components/menu'
 import './about.scss'
 
-class About extends Component {
-  render () {
+export default class About extends React.Component {
+
+  render() {
     return (
       <div>
-        about works
+        <Menu />
+        this is about
       </div>
     )
   }
 }
 
-export default About

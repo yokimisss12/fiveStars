@@ -6,7 +6,7 @@ import {Provider} from 'react-redux'
 import {AppContainer} from 'react-hot-loader'
 import store from '@/store'
 import * as serviceWorker from './serviceWorker';
-
+import 'antd/dist/antd.css';
 
 
 FastClick.attach(document.body)

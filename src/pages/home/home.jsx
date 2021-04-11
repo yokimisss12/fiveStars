@@ -1,16 +1,16 @@
-import React, {Component} from 'react'
-
+import React from 'react'
+import Menu from '../../components/menu'
 import './home.scss'
 
-class Home extends Component {
+export default class Home extends React.Component {
 
-  render () {
+  render() {
     return (
       <div>
-        home works!
+        <Menu />
+        this is home!
       </div>
     )
   }
 }
 
-export default Home

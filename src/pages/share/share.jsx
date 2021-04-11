@@ -1,16 +1,16 @@
-import React, {Component} from 'react'
-
+import React from 'react'
+import Menu from '../../components/menu'
 import './share.scss'
 
-class Share extends Component {
+export default class Share extends React.Component {
 
-  render () {
+  render() {
     return (
       <div>
-        share works!
+        <Menu />
+        this is share
       </div>
     )
   }
 }
 
-export default Share

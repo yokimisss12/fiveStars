@@ -1,16 +1,16 @@
-import React, {Component} from 'react'
-
+import React from 'react'
+import Menu from '../../components/menu'
 import './stage.scss'
 
-class Stage extends Component {
+export default class Stage extends React.Component {
 
-  render () {
+  render() {
     return (
       <div>
-        stage works!
+        <Menu />
+        this is Stage
       </div>
     )
   }
 }
 
-export default Stage
